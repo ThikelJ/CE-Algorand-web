@@ -1,0 +1,16 @@
+
+<%- include("partials/header", { account,  title: "HomeCE"}) %>
+
+<%
+let walletAccount = account ? account.slice(0,4)+"..."+account.slice(-4,account.length) : "Login"
+let idButton = account ? "Loged" : "login-wallet"
+%>
+
+<button onclick="loginWallet()" id = "<%=idButton%>"><%= walletAccount %></button>
+<h1 class="font-shallowgrave"> test </h1>
+
+
+
+
+<%- include("partials/footer") %> 
+

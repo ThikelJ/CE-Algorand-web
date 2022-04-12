@@ -1,0 +1,70 @@
+<%- include("partials/header", { account, urls, title: "HomeCG" }) %>
+
+
+
+
+<section id="home" >
+    <div id="blur19"></div>
+    <img id="img-43" src="uploads/backgrounds/Group-43.png">
+    <div id="nav-div">
+        <nav id="header-nav" >
+            <ul id = "header-ul" class="transparent-box font-color-normal">
+                <li class="item-nav">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="item-nav">
+                    <a href="#comic">Comic</a>
+                </li>
+                <li class="item-nav">
+                    <a href="#home">Crazy Guys</a>
+                </li>
+                <li class="item-nav">
+                    <a href="#home">Merch</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="header-info">
+        <!-- ELEMENTOS IZQUIERDA-->
+        <div id="header-left" class="animate__animated animate__fadeInLeft">
+            <section id="box-text" class="transparent-box" >
+                <div id="title-box">
+                    <h2 class="size-default-title">
+                        Discover and collect your extraordinary
+                        <br>
+                        NFT’s Nows
+                    </h2>
+                </div>
+                <hr id="divisor-header-info"> 
+                <div id="description-box">
+                    <p id="text-description-box" class="font-color-normal">
+                        200 1/1 Crazy Guys, the CGs come from the Crazy Embryons who were victims of irresponsible experiments in secret laboratories. Everything turned out badly for the scientists since their investigation benefited the CGs, and it is time for revenge.
+                    </p>
+                </div>
+                <div id="footer-box-header" class="font-color-normal">
+                    <h2 id="footer-header-text">Go to our Discord and participate in the shuffles.</h2>
+                </div>
+
+            </section>
+            <div id="button-discord">
+                <a id="link-button-discord" class="font-color-normal" href="<%=urls.discord%>">
+                    <span id="content-button-discord"> 
+                        <span id="text-button-discord">Discord</span>
+                        <span id="icon-button-discord" class="icon-discord">   </span>  
+                    </span>
+                </a>
+            </div>         
+        </div>    
+        <!--ELEMENTOS DERECHA-->
+        <div id="header-rigth" class="animaete__animated animate__fadeInRigth"> 
+            <div id="carousel"></div>
+        </div>
+    </div>
+</section>
+<section id="divisor">
+    <div id="img-divisor">
+        <h2 id="text-divisor">Origin of the Crazy Guys</h2>
+    </div>
+</section>
+
+<%- include("partials/footer") %> 
