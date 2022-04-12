@@ -3,7 +3,6 @@ const MemoryStore = require("memorystore")(session);
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const express = require("express")
-//const passport = require("passport");
 
 module.exports = function (app) {
     app.engine("html", ejs.renderFile);
@@ -23,17 +22,5 @@ module.exports = function (app) {
           saveUninitialized: false
         })
       );
-    /*
-    //// Usa el passaport para crear sesiones
-    app.use(passport.initialize());
-    app.use(passport.session());
-    // El passaport al serializar users etc.
-    passport.serializeUser(function(user, done) {
-    done(null, user);
-    });
 
-    passport.deserializeUser(function(user, done) {
-    done(null, user);
-    });
-*/
 }
