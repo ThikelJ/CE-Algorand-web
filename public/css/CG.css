@@ -1,0 +1,207 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+/*celulares diseño*/
+@media only screen and (max-width: 768px) {
+
+}
+
+/*tablets diseño */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: #121614;
+        margin: 0px;
+        padding: 0px;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    body::-webkit-scrollbar {
+        display: none;
+      }
+
+    #home {
+        width: 100%;
+        height: 900px;
+        background-image: url("../uploads/backgrounds/Laboratorio_HQ_Final-SinREC-scaled.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: -175px 0px;
+    }
+    #blur19 {
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        opacity: 0.5;
+        background-image: url("../uploads/ellipse/Ellipse-19.png"); 
+        background-repeat: no-repeat;
+        background-size: auto;
+        position: absolute;
+    }
+    #img-43 {
+        max-width: 542;
+        width: 280px;
+        margin: 189px 147px;
+        object-fit: cover;
+        object-position: bottom;
+        position: absolute;
+    }   
+    
+    #nav-div {
+        display: flex;
+        justify-content: right;
+    }
+
+    #header-ul > li > a {
+        color:white;
+        font-size: 18;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    #header-ul > li {
+        float: left;
+        padding-left: 20;
+        padding-top: 13;
+        padding-bottom: 13;
+        padding-right: 20;
+        list-style-type: none;
+    }
+
+    #header-ul {
+        margin: 225px 121px 20px 200px;
+        border-radius: 5px;
+        padding-right: 80;
+        padding-left: 80;
+        box-sizing: border-box;
+    }
+
+    .transparent-box {
+        background-color: rgba(58, 58, 58, 0.651);
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    .size-default-title {
+        color: white;
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+    }
+    .font-color-normal {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        text-decoration: none;
+    }
+    #header-left {
+        display: inline-block
+    }
+
+    #header-info {
+        display: inline-block;
+        max-width: 1140px;
+        width: 440;
+        margin-left: 74;
+        margin-top: 26;
+    }
+    #box-text {
+        display: inline-block;
+        background-color: #00000066;
+    }
+    #title-box {
+        margin: 20 20px;
+        text-align: center;
+    }
+    #divisor-header-info {
+        background-color: red;
+        height: 2px;
+        width: 95%;
+        margin-top: -21;
+        border: none;
+    }
+    #text-description-box {
+        font-weight: 700;
+        text-align: center;
+        margin: 20px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    #footer-box-header {
+        background-color: #AB1E1A;
+        margin-bottom: -19;
+        border-radius: 10px;
+
+    }
+    #footer-header-text {
+        padding-top: 6;
+        font-weight: 500;
+        text-align: center;
+    }
+    #button-discord {
+        display: flex;
+        align-items: center;
+        margin-top: 35;
+        justify-content: center;
+    }
+    #link-button-discord {
+        background-color: #8844F3;
+        padding: 10px 25px 10px 25px;
+        border-color: white;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 12px 12px 12px 12px;
+        box-shadow: 6px 3px 31px 21px rgb(255 255 255 / 60%);
+        padding-right: 12%;
+    }
+    #text-button-discord {
+        font-weight: 700;
+        font-size: 28;
+    }
+
+    .icon-discord{
+        width:800px;
+        height:100px;
+        text-decoration:none;
+    }
+    .icon-discord:before{
+        content: ' ';
+        background:url('../uploads/iconos/discord.png');
+        background-size:cover;
+        position:absolute;
+        width: 35px;
+        height: 35px;
+        margin-left: 11px;
+    }
+    #divisor {
+        position: absolute;
+    }
+    #img-divisor {
+        background-image: url("../uploads/backgrounds/emoticons.png");
+        background-size: cover;
+        
+    }
+
+
+}
